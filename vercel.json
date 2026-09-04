@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/inbound.ts": {
+      "maxDuration": 300,
+      "includeFiles": "prompt.md"
+    },
+    "api/uazapi.ts": {
+      "maxDuration": 300,
+      "includeFiles": "prompt.md"
+    },
+    "api/followup.ts": {
+      "maxDuration": 300,
+      "includeFiles": "prompt.md"
+    }
+  }
+}

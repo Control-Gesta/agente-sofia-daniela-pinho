@@ -1,0 +1,20 @@
+node_modules/
+.vercel
+.vercel/
+
+# Segredos de produção: token do Kommo, chave da OpenAI, token do Redis e o
+# WEBHOOK_SECRET vivem aqui. NUNCA versionar — nem depois de rotacionar, porque
+# fica no histórico do git pra sempre.
+.env
+.env.*
+*.local
+*.local.json
+# ...mas o exemplo (sem nenhum valor real) é documentação e deve subir:
+!.env.local.example
+
+# Backups operacionais da limpeza de tags (03/09/2026). Contêm ids de leads
+# do cliente — dado operacional, não código.
+backup-tags-*.json
+
+.DS_Store
+*.log
