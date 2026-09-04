@@ -62,19 +62,46 @@ export const CRM_MAP = {
     diasSemana: [1, 2, 3, 4, 5], // seg-sex — sáb/dom são sempre da Sofia
     inicioHora: 8,
     fimHora: 18,
+    // Fonte das datas nacionais: ANBIMA (calendário bancário oficial),
+    // conferido em 03/09/2026. Municipais de BH: Lei municipal —
+    // 15/08 Nossa Senhora da Boa Viagem (padroeira) e 08/12 Imaculada
+    // Conceição. Datas em fim de semana ficam na lista de propósito: são
+    // inofensivas (sábado/domingo já é atendido) e servem de conferência.
     feriados: [
-      '2026-01-01', // Confraternização Universal
-      '2026-02-16', // Carnaval (segunda)
-      '2026-02-17', // Carnaval (terça)
-      '2026-04-03', // Sexta-feira Santa
-      '2026-04-21', // Tiradentes
-      '2026-05-01', // Dia do Trabalho
-      '2026-06-04', // Corpus Christi
-      '2026-09-07', // Independência
-      '2026-10-12', // Nossa Senhora Aparecida
-      '2026-11-02', // Finados
-      '2026-11-15', // Proclamação da República
-      '2026-12-25', // Natal
+      // ---- 2026 — nacionais ----
+      '2026-01-01', // Confraternização Universal (qui)
+      '2026-02-16', // Carnaval (seg)
+      '2026-02-17', // Carnaval (ter)
+      '2026-04-03', // Paixão de Cristo (sex)
+      '2026-04-21', // Tiradentes (ter)
+      '2026-05-01', // Dia do Trabalho (sex)
+      '2026-06-04', // Corpus Christi (qui)
+      '2026-09-07', // Independência (seg)
+      '2026-10-12', // Nossa Senhora Aparecida (seg)
+      '2026-11-02', // Finados (seg)
+      '2026-11-15', // Proclamação da República (dom)
+      '2026-11-20', // Zumbi / Consciência Negra (SEX) — nacional desde a Lei 14.759/2023
+      '2026-12-25', // Natal (sex)
+      // ---- 2026 — municipais de Belo Horizonte ----
+      '2026-08-15', // Nossa Senhora da Boa Viagem — padroeira de BH (sáb)
+      '2026-12-08', // Imaculada Conceição (ter)
+      // ---- 2027 — nacionais ----
+      '2027-01-01', // Confraternização Universal (sex)
+      '2027-02-08', // Carnaval (seg)
+      '2027-02-09', // Carnaval (ter)
+      '2027-03-26', // Paixão de Cristo (sex)
+      '2027-04-21', // Tiradentes (qua)
+      '2027-05-01', // Dia do Trabalho (sáb)
+      '2027-05-27', // Corpus Christi (qui)
+      '2027-09-07', // Independência (ter)
+      '2027-10-12', // Nossa Senhora Aparecida (ter)
+      '2027-11-02', // Finados (ter)
+      '2027-11-15', // Proclamação da República (seg)
+      '2027-11-20', // Zumbi / Consciência Negra (sáb)
+      '2027-12-25', // Natal (sáb)
+      // ---- 2027 — municipais de Belo Horizonte ----
+      '2027-08-15', // Nossa Senhora da Boa Viagem (dom)
+      '2027-12-08', // Imaculada Conceição (qua)
     ],
   },
 
